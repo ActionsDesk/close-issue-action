@@ -1,0 +1,1 @@
+# close-issue-action
