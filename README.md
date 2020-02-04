@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Close Issue
-        uses: chocrates/close-issue-action@release/v1
+        uses: ActionsDesk/close-issue-action@release/v1
         env:
           GITHUB_TOKEN: ${{ secrets.ADMIN_TOKEN }}
 ```
